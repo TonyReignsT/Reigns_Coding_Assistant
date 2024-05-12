@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'popins', sans-serif;
+  /* background-color: #CDE8E5; */
+  
+}
+.banner{
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0)),url('../images/codepic.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+min-height: 100vh;
+width: 100%;
+color:  #FFFFF0;
+/* background: ; */
+overflow-x: hidden;
+}
+.banner > h1{
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+}
+.banner > p {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 50%; /* Adjusted to center horizontally */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+
+.banner .btns {
+  margin-top: 20px; /* Adjust margin to create space between paragraph and links */
+  /* bottom: 0; */
+}
+.banner .btns ul {
+  list-style-type: none; 
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* horizontal layout */
+  justify-content: space-evenly;
+}
+.banner .btns ul li {
+  margin-right: 10px; /* margin between links */
+}
+.banner .btns ul li:last-child {
+  margin-right: 0; 
+}
+.banner .btns ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #FFFFF0; /* Set link color */
+  padding: 5px 10px; /* Add padding to links */
+  border: 1px solid #7AB2B2; 
+  border-radius: 5px; 
+  background-color: #333;
+}
+.banner .btns ul li a:hover {
+  /* background-color: #333; 
+  color: #fff;  */
+  border: none;
+}
+
+
